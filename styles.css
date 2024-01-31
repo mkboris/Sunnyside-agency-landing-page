@@ -162,6 +162,7 @@ h1 {
   height: 0.625rem;
   border-radius: 1.75rem;
   z-index: -1;
+  opacity: 0.25;
 }
 .learn:hover {
   color: var(--Very-dark-grayish-blue);
@@ -172,6 +173,10 @@ h1 {
 }
 .learn-standout::after {
   background: var(--Soft-red);
+}
+.learn:hover::after {
+  transition: all 200ms ease-in-out;
+  opacity: 1;
 }
 .trans {
   padding: 9.88rem 7.65rem 9.81rem 10.31rem;
