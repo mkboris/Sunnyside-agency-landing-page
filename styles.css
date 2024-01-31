@@ -173,7 +173,7 @@ h1 {
   background: var(--Soft-red);
 }
 .trans {
-  padding: 9.88rem 6.65rem 9.81rem 10.31rem;
+  padding: 9.88rem 7.65rem 9.81rem 10.31rem;
 }
 @media screen and (max-width: 1100px) {
   .trans {
