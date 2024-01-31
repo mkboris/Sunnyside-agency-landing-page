@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/mkboris/Article-preview-component
-- Live Site URL: https://article-preview-component-rho-seven.vercel.app/
+- Solution URL: https://github.com/mkboris/Sunnyside-agency-landing-page
+- Live Site URL: https://sunnyside-agency-landing-page-lime.vercel.app/
   
 ### Built with
 
