@@ -11,24 +11,107 @@
   --White: hsl(0, 0%, 100%);
 }
 
+/* Box sizing rules */
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
   border: 0;
 }
-html {
-  box-sizing: border-box;
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
 }
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  /* display: block; */
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
 body {
   font-family: "Barlow", sans-serif;
   font-family: "Fraunces", serif;
-  min-height: 100vh;
   text-align: center;
   overflow-x: hidden;
   background-color: #fffcf8;
@@ -38,7 +121,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
+  min-height: 50rem;
   padding: 2.12rem 3rem 0 2.5rem;
   text-align: center;
   position: relative;
@@ -181,7 +264,7 @@ h1 {
 .trans {
   padding: 9.88rem 7.65rem 9.81rem 10.31rem;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 68.75rem) {
   .trans {
     padding: 6.88rem 3.65rem 4.81rem 6.31rem;
   }
@@ -189,7 +272,7 @@ h1 {
 .stand {
   padding: 9.81rem 10.31rem 9.81rem 7.31rem;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 68.75rem) {
   .stand {
     padding: 4.88rem 3.65rem 3.81rem 3.81rem;
   }
@@ -236,7 +319,7 @@ h1 {
   padding-left: 9.94rem;
   padding-right: 9.88rem;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 75rem) {
   .graphic {
     padding-top: 24.88rem;
     padding-left: 3.94rem;
@@ -280,7 +363,7 @@ h1 {
 .testimonials-section {
   padding: 10rem 10.31rem;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 75rem) {
   .testimonials-section {
     padding: 5rem 3.31rem;
   }
@@ -342,7 +425,7 @@ article .title {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 448px;
+  min-height: 28rem;
 }
 .gallery-image {
   width: 25%;
@@ -401,7 +484,7 @@ footer .logo-footer {
 }
 .footer-icons {
   display: flex;
-  gap: 28px;
+  gap: 1.75rem;
   align-items: center;
   padding-left: 0;
   margin-top: 0;
@@ -416,7 +499,7 @@ footer .logo-footer {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   .btn-container {
     display: block;
   }
@@ -428,8 +511,8 @@ footer .logo-footer {
 
   .hamburger {
     cursor: pointer;
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     transition: all 0.25s;
     position: relative;
     z-index: 40;
@@ -445,7 +528,7 @@ footer .logo-footer {
   .hamburger-middle,
   .hamburger-bottom {
     position: absolute;
-    width: 24px;
+    width: 1.5rem;
     height: 2px;
     top: 0;
     left: 0;
@@ -586,14 +669,14 @@ footer .logo-footer {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
   .mobile-menu {
     width: 90%;
     top: 20%;
   }
   header {
     background-image: url("images/mobile/image-header.jpg");
-    height: 538px;
+    height: 33.625rem;
     background-position: bottom;
     padding: 2rem 1.5rem 0 1.5rem;
   }
@@ -653,7 +736,7 @@ footer .logo-footer {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 24.375rem) {
   .mobile-menu {
     width: 88%;
     top: 20%;
