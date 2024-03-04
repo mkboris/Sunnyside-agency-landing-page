@@ -683,6 +683,9 @@ footer .logo-footer {
   nav {
     margin-bottom: 5rem;
   }
+  .nav-menu {
+    display: none;
+  }
   .logo {
     width: 7.72725rem;
     height: 1.5rem;
@@ -734,11 +737,16 @@ footer .logo-footer {
   .sugarcubes {
     background-image: url("images/mobile/image-gallery-sugar-cubes.jpg");
   }
+  .footer-menu {
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 24.375rem) {
   .mobile-menu {
     width: 88%;
     top: 20%;
+    /* display: flex;
+    justify-content: center; */
   }
 }

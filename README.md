@@ -11,9 +11,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
 ## Overview
-
 
 ### The challenge
 
@@ -22,7 +20,6 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-  
 ### Screenshot
 
 ![](/design/desktop-design.jpg)
@@ -31,7 +28,7 @@ Users should be able to:
 
 - Solution URL: https://github.com/mkboris/Sunnyside-agency-landing-page
 - Live Site URL: https://sunnyside-agency-landing-page-lime.vercel.app/
-  
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -45,5 +42,3 @@ Building more projects to improve my skills.
 ## Author
 
 - Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
-- Twitter - [@mk_boris](https://www.twitter.com/mk_boris)
-
