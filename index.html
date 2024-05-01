@@ -21,61 +21,72 @@
     <script defer src="script.js"></script>
   </head>
   <body>
-    <main>
-      <!-- Hero area -->
-      <header>
-        <nav>
-          <img class="logo" src="images/logo.svg" alt="Sunnyside" />
+    <header>
+      <nav>
+        <a href="#">
+          <img class="logo" src="images/logo.svg" alt="Sunnyside's logo" />
+        </a>
 
-          <ul class="nav-menu">
+        <!-- Desktop menu -->
+        <ul class="nav-menu">
+          <li>
+            <a class="nav-links" href="#">About</a>
+          </li>
+          <li>
+            <a class="nav-links" href="#">Services</a>
+          </li>
+          <li>
+            <a class="nav-links" href="#">Projects</a>
+          </li>
+          <li>
+            <a class="nav-links" href="#">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Hamburger button -->
+        <div class="btn-container">
+          <button
+            aria-label="Toggle Mobile Menu"
+            aria-expanded="false"
+            aria-controls="content"
+            id="menu-btn"
+            type="button"
+            class="hamburger"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+        <!-- Mobile menu -->
+        <div id="content" class="mobile-menu hidden">
+          <ul class="nav-menu-mobile">
             <li>
-              <a class="nav-links" href="#">About</a>
+              <a class="nav-links-mobile" href="#">About</a>
             </li>
             <li>
-              <a class="nav-links" href="#">Services</a>
+              <a class="nav-links-mobile" href="#">Services</a>
             </li>
             <li>
-              <a class="nav-links" href="#">Projects</a>
+              <a class="nav-links-mobile" href="#">Projects</a>
             </li>
             <li>
-              <a class="nav-links" href="#">Contact</a>
+              <a class="nav-links-mobile" href="#">Contact</a>
             </li>
           </ul>
+        </div>
+      </nav>
 
-          <!-- Hamburger button -->
-          <div class="btn-container">
-            <button id="menu-btn" type="button" class="hamburger">
-              <span class="hamburger-top"></span>
-              <span class="hamburger-middle"></span>
-              <span class="hamburger-bottom"></span>
-            </button>
-          </div>
-          <!-- Mobile menu -->
-          <div class="mobile-menu hidden">
-            <ul class="nav-menu-mobile">
-              <li>
-                <a class="nav-links-mobile" href="#">About</a>
-              </li>
-              <li>
-                <a class="nav-links-mobile" href="#">Services</a>
-              </li>
-              <li>
-                <a class="nav-links-mobile" href="#">Projects</a>
-              </li>
-              <li>
-                <a class="nav-links-mobile" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <!-- Header -->
-        <h1>We are creatives</h1>
-        <img
-          class="arrow-down"
-          src="images/icon-arrow-down.svg"
-          alt="a white decorative arrow pointing downwards"
-        />
-      </header>
+      <!-- Hero area -->
+      <h1>We are creatives</h1>
+      <img
+        class="arrow-down"
+        src="images/icon-arrow-down.svg"
+        alt="a white decorative arrow pointing downwards"
+      />
+    </header>
+
+    <main>
       <!-- Center section -->
       <section>
         <div class="transform">
@@ -168,49 +179,55 @@
         <div class="gallery-image cone"></div>
         <div class="gallery-image sugarcubes"></div>
       </section>
-      <!-- Footer -->
-      <footer>
-        <img class="logo-footer" src="images/logo-footer.svg" alt="Sunnyside" />
-        <ul class="footer-menu">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Projects</a></li>
-        </ul>
-        <ul class="footer-icons">
-          <li>
-            <a href="#"
-              ><img
-                class="social-icons"
-                src="images/icon-facebook.svg"
-                alt="facebook icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                class="social-icons"
-                src="images/icon-instagram.svg"
-                alt="instagram icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                class="social-icons"
-                src="images/icon-twitter.svg"
-                alt="twitter icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                class="social-icons"
-                src="images/icon-pinterest.svg"
-                alt="pinterest icon"
-            /></a>
-          </li>
-        </ul>
-      </footer>
     </main>
+
+    <footer>
+      <a href="#"
+        ><img
+          class="logo-footer"
+          src="images/logo-footer.svg"
+          alt="Sunnyside's logo"
+      /></a>
+
+      <ul class="footer-menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+      <ul class="footer-icons">
+        <li>
+          <a href="#"
+            ><img
+              class="social-icons"
+              src="images/icon-facebook.svg"
+              alt="facebook icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              class="social-icons"
+              src="images/icon-instagram.svg"
+              alt="instagram icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              class="social-icons"
+              src="images/icon-twitter.svg"
+              alt="twitter icon"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              class="social-icons"
+              src="images/icon-pinterest.svg"
+              alt="pinterest icon"
+          /></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
