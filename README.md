@@ -8,7 +8,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -34,10 +33,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### Continued development
-
-Building more projects to improve my skills.
 
 ## Author
 
