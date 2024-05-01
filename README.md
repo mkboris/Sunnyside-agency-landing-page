@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/mkboris/Sunnyside-agency-landing-page
-- Live Site URL: https://sunnyside-agency-landing-page-lime.vercel.app/
+- [Solution](https://github.com/mkboris/Sunnyside-agency-landing-page)
+- [Live Site](https://sunnyside-agency-landing-page-lime.vercel.app/)
 
 ### Built with
 
