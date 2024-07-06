@@ -1,14 +1,12 @@
 # Frontend Mentor - Sunnyside agency landing page solution
 
-This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Continued development](#continued-development)
+  - [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
@@ -22,22 +20,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](/design/desktop-design.jpg)
+![](/design/desktop-preview.jpg)
 
 ### Links
 
-- Solution URL: https://github.com/mkboris/Sunnyside-agency-landing-page
-- Live Site URL: https://sunnyside-agency-landing-page-lime.vercel.app/
+- [Solution](https://github.com/mkboris/Sunnyside-agency-landing-page)
+- [Live Site](https://sunnyside-agency-landing-page-lime.vercel.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### Continued development
-
-Building more projects to improve my skills.
 
 ## Author
 
