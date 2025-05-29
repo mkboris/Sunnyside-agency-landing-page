@@ -24,7 +24,6 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/mkboris/Sunnyside-agency-landing-page)
 - [Live Site](https://sunnyside-agency-landing-page-lime.vercel.app/)
 
 ### Built with
@@ -35,4 +34,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
+- Frontend Mentor - [makogeboris](https://www.frontendmentor.io/profile/makogeboris)
+- Twitter - [makogeboris](https://x.com/makogeboris)
